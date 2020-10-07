@@ -36,7 +36,7 @@ func main() {
 
 	// Init i18n config.
 	app.I18n.DefaultMessageFunc = i18n.DefaultMessageFunc
-	if err := app.I18n.Load("./assert/locale/*/*", "en-US", "zh-CN"); err != nil {
+	if err := app.I18n.Load("./assets/locale/*/*", "en-US", "zh-CN"); err != nil {
 		log.Logger.Errorf("Load i18n failed: %s", err)
 		panic(err)
 	}
