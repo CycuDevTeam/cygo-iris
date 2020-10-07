@@ -1,0 +1,24 @@
+version: "3"
+services:
+  mongodb_dev:
+    image: mongo:latest
+    container_name: mongodb_dev
+    restart: always
+    environment:
+      - MONGO_DATA_DIR=/data/db
+      - MONGO_LOG_DIR=/data/logs
+      - MONGO_INITDB_ROOT_USERNAME=tester
+      - MONGO_INITDB_ROOT_PASSWORD=tester
+    volumes:
+      - ./mongodb/data:/data/db
+      - ./mongodb/logs:/data/logs
+    ports:
+      - 27017:27017
+  redis_dev:
+    image: redis:latest
+    container_name: redis_dev
+    command: redis-server
+    ports:
+      - 6379:6379
+    volumes:
+      - ./redis/data:/var/lib/redis
