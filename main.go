@@ -7,6 +7,7 @@ import (
 	"cygo_iris/util/i18n"
 	"cygo_iris/util/log"
 	"cygo_iris/util/validator"
+
 	"github.com/joho/godotenv"
 	"github.com/kataras/iris/v12"
 	"os"
@@ -47,4 +48,3 @@ func main() {
 
 	_ = app.Run(iris.Addr(":" + os.Getenv("PORT")))
 }
-

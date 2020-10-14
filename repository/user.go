@@ -2,6 +2,7 @@ package repository
 
 import (
 	"cygo_iris/util/log"
+
 	"golang.org/x/crypto/bcrypt"
 	"gopkg.in/mgo.v2/bson"
 )

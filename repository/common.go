@@ -2,6 +2,7 @@ package repository
 
 import (
 	"cygo_iris/util/log"
+
 	"gopkg.in/mgo.v2"
 )
 

@@ -1,9 +1,9 @@
 package route
 
 import (
-	"github.com/kataras/iris/v12"
-
 	"cygo_iris/controller/v1/user"
+
+	"github.com/kataras/iris/v12"
 )
 
 func InitRouter(app *iris.Application) {

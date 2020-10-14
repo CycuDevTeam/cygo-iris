@@ -3,6 +3,7 @@ package user
 import (
 	"cygo_iris/controller/v1/common"
 	"cygo_iris/service"
+
 	"github.com/kataras/iris/v12"
 )
 
