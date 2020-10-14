@@ -26,4 +26,3 @@ func GetUserByAccount(account string) (user repository.User) {
 	}
 	return
 }
-

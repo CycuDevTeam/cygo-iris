@@ -8,9 +8,10 @@ import (
 	"cygo_iris/util/log"
 	"cygo_iris/util/validator"
 
+	"os"
+
 	"github.com/joho/godotenv"
 	"github.com/kataras/iris/v12"
-	"os"
 )
 
 func main() {

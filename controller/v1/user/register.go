@@ -5,10 +5,11 @@ import (
 	"cygo_iris/repository"
 	"cygo_iris/service"
 
-	"github.com/kataras/iris/v12"
-	"gopkg.in/mgo.v2/bson"
 	"strings"
 	"time"
+
+	"github.com/kataras/iris/v12"
+	"gopkg.in/mgo.v2/bson"
 )
 
 type RegisterRequest struct {

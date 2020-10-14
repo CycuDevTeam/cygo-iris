@@ -1,8 +1,9 @@
 package repository
 
 import (
-	"gopkg.in/mgo.v2"
 	"os"
+
+	"gopkg.in/mgo.v2"
 )
 
 var Session *mgo.Session

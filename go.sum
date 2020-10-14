@@ -59,7 +59,6 @@ github.com/go-playground/locales v0.13.0 h1:HyWk6mgj5qFqCT5fjGBuRArbVDfE4hi8+e8c
 github.com/go-playground/locales v0.13.0/go.mod h1:taPMhCMXrRLJO55olJkUXHZBHCxTMfnGwq/HNwmWNS8=
 github.com/go-playground/universal-translator v0.17.0 h1:icxd5fm+REJzpZx7ZfpaD876Lmtgy7VtROAbHHXk8no=
 github.com/go-playground/universal-translator v0.17.0/go.mod h1:UkSxE5sNxxRwHyU+Scu5vgOQjsIJAF8j9muTVoKLVtA=
-github.com/go-playground/validator v9.31.0+incompatible h1:UA72EPEogEnq76ehGdEDp4Mit+3FDh548oRqwVgNsHA=
 github.com/go-playground/validator/v10 v10.4.0 h1:72qIR/m8ybvL8L5TIyfgrigqkrw7kVYAvjEvpT85l70=
 github.com/go-playground/validator/v10 v10.4.0/go.mod h1:nlOn6nFhuKACm19sB/8EGNn9GlaMV7XkbRSipzJ0Ii4=
 github.com/go-redis/redis/v8 v8.2.3 h1:eNesND+DWt/sjQOtPFxAbQkTIXaXX00qNLxjVWkZ70k=
@@ -126,7 +125,6 @@ github.com/kataras/blocks v0.0.4 h1:lvp/Yr7WoYJKuHpI8f4Shlsl1lb+PE2Lyt0qta5kYWA=
 github.com/kataras/blocks v0.0.4/go.mod h1:fu8wIPm3TgpiqW1fdPUSR8m/VMcZgj52vBYe1aS1mu0=
 github.com/kataras/golog v0.1.5 h1:WbXu2rUc3yX/QB2mcNP5AjR64UlaaxkYrGMkO58T4Js=
 github.com/kataras/golog v0.1.5/go.mod h1:jOSQ+C5fUqsNSwurB/oAHq1IFSb0KI3l6GMa7xB6dZA=
-github.com/kataras/iris v0.0.0-20191006184023-c8e73f4f4df2 h1:pFfvcdIJa7n+e1q+pNy0P2ikbLIRjp2WTHfQfJFlX9s=
 github.com/kataras/iris/v12 v12.2.0-alpha.0.20201004164849-1be327f6b4b0 h1:EpA4t5LA0+IL/jBi6y37aW2mIx/Wib7ERcIeY5UJS58=
 github.com/kataras/iris/v12 v12.2.0-alpha.0.20201004164849-1be327f6b4b0/go.mod h1:3cgZ+JtpVQvn4QfOUs0tW7NxLwj0QSx+PsKJpISS1WU=
 github.com/kataras/neffos v0.0.16/go.mod h1:BqWkF1c6cSyqw85dfCdqXxK5cMo/hyBGhtNuFkxHyMg=
